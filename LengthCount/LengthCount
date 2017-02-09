@@ -14,6 +14,7 @@ import org.apache.hadoop.util.GenericOptionsParser;
 
 public class LengthCount {
 
+// mapper
   public static class TokenizerMapper 
        extends Mapper<Object, Text, Text, IntWritable>{
     
@@ -45,7 +46,8 @@ public class LengthCount {
       }
     }
   }
-  
+
+//reducer
   public static class IntSumReducer 
        extends Reducer<Text,IntWritable,Text,IntWritable> {
     private IntWritable result = new IntWritable();
