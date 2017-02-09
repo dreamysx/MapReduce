@@ -1,1 +1,6 @@
 This program computes the result of two given matrices multiplication using the two-phase approach.
+To run this script, you need to first compile it to get a jar, and then run the following script:
+bin/hadoop jar jar_name.jar TwoPhase mat-A mat-B output
+Both mat-A and mat-B are directories containing matrix value stored as a .txt file.
+After running this program, your output will be stored in a directory named output.
+You need to make sure that there wasn't a directory named output before.
