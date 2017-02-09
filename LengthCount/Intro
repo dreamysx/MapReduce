@@ -1,0 +1,6 @@
+This LengthCount program computes a “histogram” on the length of words in the given collection of text files.
+Assume that words fall into the following categories based on their length:
+Big:10+ characters; Medium: 5-9; Small:2-4; Tiny: 1.
+To run this script, you need to first compile it to get a jar, and then run the following script:
+bin/hadoop jar jar_name.jar LengthCount <input_file_name> <output_file_name>
+Both input and output files should be .txt.
