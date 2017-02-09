@@ -1,2 +1,2 @@
 # MapReduce
-Functions implemented by MapReduce
+Programs implemented by MapReduce
